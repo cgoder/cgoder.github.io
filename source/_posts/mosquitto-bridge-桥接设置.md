@@ -1,7 +1,9 @@
 title: "mosquitto bridge 桥接设置"
 date: 2015-05-18 11:18:41
-tags: [mqtt mosquitto smarthome] 
-categories: work
+categories:
+ - work
+tags:
+ - mosquitto
 ---
 
 下面是mosquitto桥接模式的一些参数简单设置。

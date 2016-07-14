@@ -1,7 +1,10 @@
 title: "继续mqtt"
 date: 2015-05-15 10:31:13
-categories: work
-tags: mqtt mosquitto smarthome 
+categories:
+ - work
+tags:
+ - mqtt
+ - mosquitto
 ---
 &emsp;手头上正在做有关智能家居的项目。项目基于[mqtt](http://mqtt.org/)协议开发，使用开源项目[mosquitto](http://mosquitto.org/)为主体搭建。
 &emsp;过程中有很多心得以及走过的坑，都记录在为知笔记上了。想一下子转到这边来，还有点麻烦，就算了。以后的填坑心得都记录于此吧。毕竟准备以此为工作技术blog的。

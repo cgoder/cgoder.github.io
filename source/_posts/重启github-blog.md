@@ -1,7 +1,10 @@
 ---
 title: 重启github blog
 date: 2016-07-14 13:44:20
+categories:
+ - life
 tags:
+ - 虾扯
 ---
 折腾了一上午，赶紧记录下来。
 
