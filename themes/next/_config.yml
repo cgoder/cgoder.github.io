@@ -101,8 +101,8 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    # family: Lobster Two
-    family: Roboto Slab
+    family: Lobster Two
+    # family: Roboto Slab
     size: 24
 
   # Font settings for <code> and code blocks.
@@ -181,11 +181,11 @@ sidebar:
 
 
 # Blogrolls
-links_title: Links
+# links_title: Links
 #links_layout: block
 #links_layout: inline
-links:
-  Hi!PDA: http://www.hi-pda.com/
+# links:
+#   Hi!PDA: http://www.hi-pda.com/
 
 
 avatar: /images/avatar.png
@@ -199,8 +199,8 @@ avatar: /images/avatar.png
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: /images/avatar.png
 
 
 # Code Highlight theme
@@ -247,7 +247,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: cgoder
 
 # Disqus
 #disqus_shortname:
@@ -282,7 +282,7 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
+  admin_enable: true
   user_id: 0
   #admin_nickname: Author
 
@@ -330,10 +330,15 @@ busuanzi_count:
   page_pv_footer:
 
 # Tencent analytics ID
-# tencent_analytics:
+tencent_analytics: 57396956
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
+
+#local search
+search:
+  path: search.xml
+  field: post
 
 
 
