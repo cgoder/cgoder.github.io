@@ -1,7 +1,7 @@
 ---
 title: 推荐款不错的hexo主题
 date: 2016-07-15 14:57:21
-categories：
+categories:
  - life
 tags:
  - hexo
