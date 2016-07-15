@@ -4,7 +4,7 @@
 
 # Site
 title: Developer's Life
-subtitle: Keep curiosity Independent thinking.
+subtitle: Keep curiosity Independent thinking
 description: 学习 思考 沉淀
 author: cgoder
 language: zh-Hans
@@ -65,8 +65,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 theme: next
+# themes: Anisina
 
-avatar: /images/avatar.png
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
