@@ -38,8 +38,8 @@ tooltip:
   jump2comments: 查看评论
   go2bottom: 转到底部
   copyPath: 点击复制文章链接
-  Hexo: "快速、简洁且高效的博客框架"
-  Yelee: 简而不减 Hexo 双栏博客主题
+  Hexo: ""
+  Yelee: ""
 
 tag_cloud:
   already: 已有
