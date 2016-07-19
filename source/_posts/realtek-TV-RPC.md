@@ -24,6 +24,8 @@ struct RpcClient::CallContext
 class RpcClient::CallbackHandler
 ```
 
+<!-- more -->
+
 4. 数据序列化类(16KB缓存)。将client的指令(TYPE_INVOKE/TYPE_RESULT) 打包并序列化成数据流，提供给`IpcStreamer`传输。参见`RpcCommandType`结构体。
 ```cpp
 class RpcCommandMuxer* m_pCmdMuxer
