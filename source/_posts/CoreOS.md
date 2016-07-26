@@ -21,6 +21,8 @@ CoreOS 专门针对大型数据中心而设计，旨在以轻量的系统架构�
 * 从软件分层来看，CoreOS像是操作系统,Docker+etcd像是内核，Docke容器像是进程。
 * 从对比模式来看，CoreOS像是hypervisor，Docker容器像是虚拟机。
 
+<!-- more -->
+
 > CoreOS 内置了两个服务：etcd 和 fleet。它们都是CoreOS的子项目。etcd是一个高可用的键值存储系统，主要用于共享配置和服务发现，类似于 ZooKeeper 和 Doozer。 fleet是一个分布式的container发布工具，用于进行集群中任务的提交和管理。可以这么理解，etcd用来自动化构建CoreOS集群，而fleet则是运行于CoreOS集群之上的任务（docker）管理平台。也就是说，CoreOS设计之初，就将运行环境定位于集群&平台。
 
 ![](http://ww4.sinaimg.cn/large/772d7a33gw1f668nmagltj20cs0a6752.jpg)
