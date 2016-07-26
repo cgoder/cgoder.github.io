@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Developer's life"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -217,8 +217,8 @@ scroll_to_more: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 500
 
 
 # Wechat Subscriber
