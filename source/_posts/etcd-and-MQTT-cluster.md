@@ -6,7 +6,7 @@ categories:
 tags:
  - mqtt
  - cluster
- - ectd
+ - etcd
 ---
 
 看了下[ectd](https://github.com/coreos/etcd)的介绍，发现这个数据库与MQTT协议的mosqutto一起搭简易的mqtt cluster简直是绝配。
