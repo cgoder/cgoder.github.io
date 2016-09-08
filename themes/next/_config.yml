@@ -30,9 +30,9 @@ canonical: true
 menu:
   home: /
   # categories: /categories
-  # archives: /archives
+  archives: /archives
   tags: /tags
-  about: /about
+  # about: /about
   # commonweal: /404.html
 
 
