@@ -5,14 +5,18 @@ categories:
  - study
 tags:
  - Openwrt
+ - MTK
 ---
-最近在折腾把手上的酷开智能路由器给刷成原版的openwrt，就是以下这货。
+最近在折腾把手上的酷开智能路由器给刷成原版的openwrt。
+
+> coocaa智能路由器分realtek和mtk两种版本。本文仅指型号为SWR100K的MTK芯片版本。硬件配置是MT7628AN+128MB+8M。
+
+就是这货 >>> 外观
 ![](http://ww4.sinaimg.cn/large/772d7a33gw1f86yfypwh1j20aj0fvaa5.jpg)
 ![](http://ww1.sinaimg.cn/large/772d7a33gw1f86yg40uppj20bs0h5glr.jpg)
 ![](http://ww3.sinaimg.cn/large/772d7a33gw1f86ygab0wqj20fe0gut94.jpg)
 这家伙的原版固件其实也能用。但是不能翻墙，把openwrt自带的东西改了好多，跟小米一个德性。而且还改得不好（不用问我怎么知道的）。
 
-> coocaa智能路由器分realtek和mtk两种版本。本文仅指型号为SWR100K的MTK芯片版本。硬件配置是MT7628AN+128MB+8M。
 > 可以通过telnet或者ssh连接后，在命令行下输入`opkg print-architecture | awk '{print $2}'`命令来查看cpu架构。
 
 ## 刷不死boot-Breed
@@ -87,7 +91,18 @@ chmod +x auto_install.sh
 ./auto_install.sh
 ```
 
+> chinaDNS周期更新可以使用如下命令
+```shell
+wget -O- 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > /etc/chinadns_chnroute.txt
+```
+
 enjoy!
+
+## 配置注意事项
+在luci-app-shadowsocks的配置页面`访问控制`里，要把`内网区域`里的`代理自身`选择**正常代理**，`代理类型`选择**正常代理**。
 
 ## 参考文献 
 [http://openwrt-dist.sourceforge.net/](http://openwrt-dist.sourceforge.net/)
+[https://sourceforge.net/p/openwrt-dist/wiki/Home/](https://sourceforge.net/p/openwrt-dist/wiki/Home/)
+[https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks](https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks)
+[https://softwaredownload.gitbooks.io/openwrt-fanqiang](https://softwaredownload.gitbooks.io/openwrt-fanqiang)
