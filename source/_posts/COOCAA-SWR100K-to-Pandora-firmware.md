@@ -91,15 +91,16 @@ chmod +x auto_install.sh
 ./auto_install.sh
 ```
 
-> chinaDNS周期更新可以使用如下命令
-```shell
-wget -O- 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > /etc/chinadns_chnroute.txt
-```
+## 配置注意事项
+1. 在luci-app-shadowsocks的配置页面`访问控制`里，要把`内网区域`里的`代理自身`选择**正常代理**，`代理类型`选择**正常代理**。
+
+2. chinaDNS周期更新可以使用如下命令：
+> wget -O- 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > /etc/chinadns_chnroute.txt
+
+3. 另外，要把`网络`->`DHCP/DNS`->`基本设置`菜单下的`本地服务器`填上chinadns的代理端口`127.0.0.1#5353`，同时把`Host和解析文件`菜单下的`忽略解析文件勾选`。
+
 
 enjoy!
-
-## 配置注意事项
-在luci-app-shadowsocks的配置页面`访问控制`里，要把`内网区域`里的`代理自身`选择**正常代理**，`代理类型`选择**正常代理**。
 
 ## 参考文献 
 [http://openwrt-dist.sourceforge.net/](http://openwrt-dist.sourceforge.net/)
