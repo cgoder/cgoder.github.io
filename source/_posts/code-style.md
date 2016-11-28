@@ -10,6 +10,8 @@ tags:
 
 一致的编码风格，更便于阅读。因此程序员都想极力说服别人认同并使用与自己一致的编码风格。下面来了解一下我的编码风格变化历程吧，哪种编码风格是你的“菜”呢？ 
 
+<!-- more -->
+
 ## 1980/1990年代的紧凑风格 
 
 当我开始编程时，我使用tab字符，因为使用它保存的文件更小，还可以将代码限制到80列。我还遵循Kernighan和Ritchie的[《C Programming Language》](http://www.amazon.com/gp/product/0131103628/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=hiltmon-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0131103628)一书中约定的“大括号放在同一行”规则，代码看起来是这样的： 

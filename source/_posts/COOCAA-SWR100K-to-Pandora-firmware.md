@@ -19,6 +19,8 @@ tags:
 
 > 可以通过telnet或者ssh连接后，在命令行下输入`opkg print-architecture | awk '{print $2}'`命令来查看cpu架构。
 
+<!-- more -->
+
 ## 刷不死boot-Breed
 首先把它的boot给换了。换成[breed](http://www.right.com.cn/forum/forum.php?mod=viewthread&tid=161906)，以防刷死。选择下载`breed-mt7688-reset38.bin`这个文件。
 - 上电的同时按住reset/wps键，等前面指示灯狂闪成（紫色）时松手。
