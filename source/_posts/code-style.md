@@ -1,6 +1,7 @@
 ---
 title: code style
 date: 2016-09-12 11:44:51
+categories:
  - study
 tags:
  - code
