@@ -12,8 +12,8 @@ tags:
 ## 1. [Android四大组件](https://developer.android.com/guide/components/fundamentals.html#Components)
 + Activity `<activity>`
 + Service 服务 `<service>`
-+ Provider 内容提供程序 `<receiver>`
-+ BroadcastReceiver 广播接收器 `<provider>`
++ Provider 内容提供程序 `<provider>`
++ BroadcastReceiver 广播接收器 `<receiver>`
 
 <!-- more -->
 
