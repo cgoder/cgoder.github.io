@@ -1,6 +1,6 @@
 ---
-title: [ZT]二叉树的非递归后序遍历算法
-date: 2017-01-09 11:55:25
+title: 二叉树的非递归后序遍历算法
+date: 2017-01-9 11:55:25
 categories:
  - study
 tags:
