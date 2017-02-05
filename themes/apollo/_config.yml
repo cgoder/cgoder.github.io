@@ -1,0 +1,21 @@
+menu:
+    Blog: /
+    Archive: /archives/
+    Weibo: http://weibo.com/1999469107
+    GitHub: https://github.com/cgoder
+    Rss: /atom.xml
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo: cgoder
+
+# Analytics
+# google-analytics:
+#ga: UA-65933410-1
+
+# Copyright Infomation
+startyear: 2015
