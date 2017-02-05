@@ -3,7 +3,7 @@ menu:
     Archive: /archives/
     Weibo: http://weibo.com/1999469107
     GitHub: https://github.com/cgoder
-    Rss: /atom.xml
+#    Rss: /atom.xml
 
 favicon: /favicon.png
 logo: /favicon.png
