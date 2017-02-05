@@ -6,6 +6,9 @@ categories:
 tags:
  - hexo
 ---
+
+找个好的主题不容易啊。
+<!-- more -->
 昨天刚重新启用github blog。找了几款主题分别试用了下。
 第一款是[NexT](https://github.com/iissnan/hexo-theme-next)，是款非常简洁的主题，简洁到只有黑白色。轻量级，在手机和PAD上看了下，加载都很快。
 另外一款是[Anisina](https://github.com/haojen/hexo-theme-Anisina)，同样是款轻量级的主题。不过它比较让我不爽的是要层次分不清。它要求把它自己主题里的配置文件替换掉站点的配置文件，这让我不舒服，难道我下次换回另外一个主题还得想法把配置文件换回去？

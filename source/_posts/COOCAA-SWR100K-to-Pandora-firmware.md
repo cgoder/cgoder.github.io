@@ -7,7 +7,9 @@ tags:
  - Openwrt
  - MTK
 ---
+
 最近在折腾把手上的酷开智能路由器给刷成原版的openwrt。
+<!-- more -->
 
 > coocaa智能路由器分realtek和mtk两种版本。本文仅指型号为SWR100K的MTK芯片版本。硬件配置是MT7628AN+128MB+8M。
 

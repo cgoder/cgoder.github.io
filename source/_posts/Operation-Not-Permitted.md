@@ -1,11 +1,15 @@
 ---
-title: Linux删除文件出现"Operation Not Permitted"提示
+title: Linux删除文件提示"Operation Not Permitted"
 date: 2017-01-19 14:00:44
 categories:
  - study
 tags:
  - Linux
 ---
+
+Linux下出现文件无法删除，提示权限不够怎么办？
+<!-- more -->
+
 刚才在aliyun空间上删除[LNMP](https://lnmp.org/)生成的某个文件时，出现某个隐藏文件删除不了，提示"Operation Not Permitted"的问题。但是我是root用户登录的啊！
 
 突然想起来以前见过一篇文章，谈到过linux下面的file flag问题。为了防止某个重要的文件被删除，可以用`chattr`命令将文章的flag改变。当文件flag被改后，即使root用户想要修改或者删除都会提示"Operation not permitted"，这是一种很好的文件保护机制。`chattr`命令详解如下：

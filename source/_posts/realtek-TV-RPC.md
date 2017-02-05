@@ -7,6 +7,10 @@ tags:
  - realtek
  - linux
 ---
+
+realtek TV RPC学习心得。
+<!-- more -->
+
 ## 接口
 
 1. RPC 客户端基类。

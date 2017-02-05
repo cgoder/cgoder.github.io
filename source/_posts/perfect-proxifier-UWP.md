@@ -7,6 +7,10 @@ tags:
  - vpn
  - shadowsocks
 ---
+想要方便的全局爬梯真不容易！
+> 其实是方便的还是部署在路由器上。
+
+<!-- more -->
 前面的一篇文章{% post_link shadowsock-proxifier shadowsock+proxifier %}简单说了下如何把shadowsocks利用到系统全局代理的方法。
 但是这个方法有个bug是，装完proxifier之后，所有的windows 10的metro应用都不能用了。比如UMP神软`Hello,TV`。那怎么办呢？Google一下，原理是metro应用和系统其它应用不一样，不走本地代理，所以当proxifier安装后，流量都走127.0.0.1，但是metro不走。所以，只要安装了proxifier软件，不管你有没有打开使用它，metro应用都不能联网。
 找了好长时间，google出来都是利用Fiddler软件里的一个叫AppContainer LoopBack的组件，使metro应用能够走本地127.0.0.1的代理来实现。

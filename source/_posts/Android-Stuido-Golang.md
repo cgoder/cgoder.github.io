@@ -9,6 +9,8 @@ tags:
 ---
 
 简单说下如何在Android上用Golang编译软件。
+<!-- more -->
+
 Golang基础版本得高于1.5；Android Studio最好是2.0以上；Java SDK版本最好是1.7以上。
 以下配置均以Windows为例。在Windows 10上实践。
 
@@ -19,7 +21,6 @@ Golang基础版本得高于1.5；Android Studio最好是2.0以上；Java SDK版�
 
 以上是基础软件安装，到各自的官方网站上下载安装即可。下面要开始配置环境。
 
-<!-- more -->
 
 ## Golang
 Golang依赖的最重要的环境变量是`GOPATH`和`GOROOT`。

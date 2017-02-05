@@ -8,6 +8,8 @@ tags:
  - etcd
 ---
 
+etcd的选举算法是怎么样实现的？
+<!-- more -->
 ## 前言
 在前面**{% post_link CoreOS CoreOS介绍 %}**的介绍文章中，提到了CoreOS的核心etcd模块。这次就主要讲下etcd模块的核心Raft共识算法，这也是etcd模块提供的集群化的原理。
 
@@ -15,7 +17,6 @@ tags:
 ![](http://ww1.sinaimg.cn/large/772d7a33jw1f66dbq241nj20hq0dbwfa.jpg)
 > **在CoreOS 集群中处于骨架地位的是etcd。**etcd是一个分布式 key/value存储服务，CoreOS集群中的程序和服务可以通过etcd共享信息或做服务发现。etcd基于非常著名的raft一致性算法：通过选举形式在服务器之中选举Lead来同步数据，并以此确保集群之内信息始终一致和可用。etcd以默认的形式安装于每个CoreOS系统之中。在默认的配置下，etcd使用系统中的两个端口：4001和7001，其中4001提供给外部应用程序以HTTP+Json的形式读写数据，而7001则用作在每个etcd之间进行数据同步。用户更可以通过配置CA Cert让 etcd以HTTPS的方式读写及同步数据，进一步确保数据信息的安全性。
 
-<!-- more -->
 
 一个 etcd 节点的核心由三部分组成：
 + Raft：Raft 状态机是对 Raft 共识算法的实现

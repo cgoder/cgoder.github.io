@@ -7,7 +7,8 @@ tags:
  - golang
  - Docker
 ---
-
+golang在Docker上如何应用？
+<!-- more -->
 ## 学习资料
 前几天花点时间沉下心来学习了下[Docker](https://www.docker.com/)。觉得这东西真不错。就赶紧把golang在Docker上应用了一把。虽然在[docker hub](https://hub.docker.com/)上已经有很多golang的镜像了，但是基本上都是基于ubuntu的，而ubuntu体积实在太大。即使仅用ubuntu的纯粹文件系统做出来的镜像都已经是1.1GB了。所以以就找了个mini型的Linux发行版本[Alpine Linux](http://alpinelinux.org/)，做了个基于Alpine的镜像。其中golang的版本是1.6.2。
 - docker hub上的下载页面地址在[**这里**](https://hub.docker.com/r/gcoder/golang/)。（由于docker hub在墙外，所以速度很慢）

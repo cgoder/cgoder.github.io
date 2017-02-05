@@ -6,6 +6,9 @@ categories:
 tags:
  - CoreOS
 ---
+
+CoreOS是个什么东西？
+<!-- more -->
 ## 简介
 [CoreOS](https://coreos.com/) 源自Google ChromeOS。是一个全新的、面向数据中心设计的 Linux 操作系统。
 CoreOS 专门针对大型数据中心而设计，旨在以轻量的系统架构和灵活的应用程序部署能力简化数据中心的维护成本和复杂度。从一开始就决定了CoreOS更加适合应用于一个集群环境而不是一个传统的服务器操作系统。

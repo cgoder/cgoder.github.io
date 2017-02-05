@@ -8,10 +8,10 @@ tags:
  - supernova
 ---
 前阵子参与了目标市场为海外的，搭载Google Cast应用的TV项目。基于Mstar6586芯片，Linux做的案子。有很多亮点，感觉不错，特别是Mstar新的Supernova，对比之前Turnkey方案下的Pure Supernova进步很大。把过程中的学习笔记放上来记录一下。
+<!-- more -->
 
 这个案子对比传统Linux的案子，比较特别的是IPC部分。它把Android的Binder机制裁剪一下引入进来了。这种IPC机制一下子就方便多了。把自己的Supernova中底层TvService进程与客户订制化要求很高的UI进程之间剥离开来，大大简化了底层逻辑的上层UI之间的耦合度。另外，它的APM部分也不错，有空再另说。
 
-<!-- more -->
 
 ## Configuration
 **PATH**:`\Supernova\MStarSDK\release\lib.macan_build_Macan_093B_ROM_NAND_DVB_SERVICE.sh`

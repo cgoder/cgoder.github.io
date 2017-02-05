@@ -6,12 +6,16 @@ categories:
 tags:
  - code
 ---
+
+有人的地方就有江湖；
+有程序员的地方就有代码风格之争。
+<!-- more -->
+
 **ZT**
 每个程序员都有自己的编码风格，这基本上都是由他们的喜好决定的，此外，程序员还乐于争论各种编码风格的优劣，比如关于Tab和空格（见[《Tab v.s. 空格：一个永恒的神圣战争》](http://www.jwz.org/doc/tabs-vs-spaces.html)、[《空格“异教徒”去死》](http://www.codinghorror.com/blog/2009/04/death-to-the-space-infidels.html)）、80列规则（见[《保卫80列规则》](http://zuzu-curl.blogspot.com/2010/02/in-defense-of-80-column-rule.html)），还有大括号的缩进风格等。 
 
 一致的编码风格，更便于阅读。因此程序员都想极力说服别人认同并使用与自己一致的编码风格。下面来了解一下我的编码风格变化历程吧，哪种编码风格是你的“菜”呢？ 
 
-<!-- more -->
 
 ## 1980/1990年代的紧凑风格 
 

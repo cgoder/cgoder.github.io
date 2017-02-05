@@ -6,6 +6,11 @@ categories:
 tags:
  - linux
 ---
+
+Linux的用户空间的内核空间是在底层编程中经常弄混的地方。
+转一篇比较不错的分析文章。
+<!-- more -->
+
 [作者]阮一峰
 
 学习 Linux 时，经常可以看到两个词：User space（用户空间）和 Kernel space（内核空间）。

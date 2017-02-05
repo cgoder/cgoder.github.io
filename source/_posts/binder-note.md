@@ -6,6 +6,10 @@ categories:
 tags:
  - Android
 ---
+
+binder是Android系统框架中极为重要的一部分，理解binder才能学习好Android系统。
+<!-- more -->
+
 # binder note
 ---
 

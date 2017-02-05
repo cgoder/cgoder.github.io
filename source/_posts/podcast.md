@@ -6,7 +6,9 @@ categories:
 tags:
  - podcast
 ---
-说说自己目前订阅的podcast吧。如图
+说说自己目前订阅的podcast吧。
+<!-- more -->
+如图
 ![](http://ww4.sinaimg.cn/large/772d7a33jw1f67482m28zj20u01hctfp.jpg)
 
 首先，就IPN旗下的节目。太医来了，IT公论，内核恐慌，选美，博物志，流行通信。

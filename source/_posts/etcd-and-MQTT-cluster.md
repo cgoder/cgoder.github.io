@@ -9,6 +9,8 @@ tags:
  - etcd
 ---
 
+etcd设计理念真不错。
+<!-- more -->
 看了下[ectd](https://github.com/coreos/etcd)的介绍，发现这个数据库与MQTT协议的mosqutto一起搭简易的mqtt cluster简直是绝配。
 主要是ectd的设计宗旨符合这个需求。主要如下：
 - 集群化：天生就带有分布式集群特性。

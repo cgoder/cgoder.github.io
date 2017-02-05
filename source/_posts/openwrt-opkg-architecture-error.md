@@ -6,6 +6,10 @@ categories:
 tags:
  - Openwrt
 ---
+
+opkg出错为什么？
+<!-- more -->
+
 在折腾coocaa智能路由器的过程中，碰到过一个问题。使用`opkg update`命令时出现如下示例的错误。
 ```shell
 Package XXX version XXXX has no valid architecture, ignoring.

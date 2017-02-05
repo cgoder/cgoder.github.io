@@ -8,6 +8,8 @@ tags:
  - vps
 ---
 前阵子在VPS上搭了个IPSEC的vpn服务器，主要用于没越狱的iOS8上。简单记录一下过程。
+
+<!-- more -->
 主要有牛人已经做好脚本了，我几乎只需要照着步骤，一路按回车就行。
 前人的blog在[这儿](https://quericy.me/blog/699/)，Github的脚本页面在[这儿](https://github.com/quericy/one-key-ikev2-vpn)。
 
