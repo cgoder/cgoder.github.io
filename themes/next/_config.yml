@@ -320,7 +320,7 @@ duoshuo_shortname: cgoder
 duoshuo_info:
   ua_enable: true
   admin_enable: false
-  user_id: 0
+  user_id: cgoder
   #admin_nickname: Author
 
 
