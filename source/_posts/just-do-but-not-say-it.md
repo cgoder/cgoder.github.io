@@ -1,5 +1,5 @@
 ---
-title: just do but not say it
+title: 学无止境
 date: 2017-03-02 11:49:25
 categories:
  - life
