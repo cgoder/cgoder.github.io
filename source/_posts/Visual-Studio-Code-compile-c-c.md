@@ -23,6 +23,7 @@ tags:
 要想调用，得配合`Cygwin/MinGw`一起才行。网上很多安装配置的教程，直接参考就行，例如[这篇](http://blog.csdn.net/c_duoduo/article/details/51615381)。不过过程还是有点弯路的。 
 在配置好MinGw后，按F5，选择调试模式，并不会有什么结果，那是因为`launch.json`文件里默认并没有`miDebuggerPath`这一项，需要自己添加进去，并填好gdb的路径，如`C:\\MinGW\\bin\\gdb.exe`。
 > 如果你发现没有`launch.json`文件，那是因为你的源码不是在一个目录里。你需要把你的源码放到一个目录里，再在VSC里把这个目录添加进来。这时按F5运行或者调试，才会有`launch.json`文件自动生成。
+
 `launch.json`内容如下：
 ```json
 {
