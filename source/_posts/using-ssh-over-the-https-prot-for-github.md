@@ -7,15 +7,16 @@ tags:
  - hexo
  - github
 ---
-怎么解决SSH连接github出现"Connection closed by remote host"的问题？
+怎么解决SSH连接github被拒绝的问题？
 <!-- more -->
 
-首先，要确定，网络能正常访问github。
-其次，要确定，秘钥已经填入github的允许列表。
-如果还连不上github怎么办？
+- 首先，要确定，网络能正常访问github。
+- 其次，要确定，秘钥已经填入github的允许列表。
+
+**如果还连不上github怎么办？**
 
 今天就碰到这事了。
-昨天写了篇VSC编译C/C++源码的文章，能正常`git push`，但是`Hexo d`却一直提示出错，连接不上github。
+昨天写了篇 **{% post_link Visual-Studio-Code-compile-c-c 使用Visual Studio Code编译c/c++源码 %}** 的文章，能正常`git push`，但是`Hexo d`却一直提示出错，连接不上github。
 此时网络是能正常访问github页面的，而且一切github操作都正常，只有hexo部署不正常。
 试了下`ssh -vT git@github.com`，结果如下：
 ```bash
@@ -104,4 +105,6 @@ Transferred: sent 4032, received 2040 bytes, in 0.7 seconds
 Bytes per second: sent 5826.6, received 2948.0
 debug1: Exit status 1
 ```
-只要出现`Hi heheda! You've successfully authenticated, but GitHub does not provide shell access.`这句，就表示OK了。现在又可以愉快地用`hexo d -g`来部署了！
+只要出现`Hi heheda! You've successfully authenticated, but GitHub does not provide shell access.`这句，就表示OK了。
+
+现在又可以愉快地用`hexo d -g`来部署了！
