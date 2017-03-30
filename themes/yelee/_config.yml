@@ -41,8 +41,10 @@ since: 2015
 
 subnav:
   GitHub: "https://github.com/cgoder"
-  新浪微博: "http://weibo.com/1999469107"
-  Email: "mailto:gcoder@live.com"
+  Google: "http://www.golss.ml"
+  Tumblr: "http://www.mlmababa.com"
+  #新浪微博: "http://weibo.com/1999469107"
+  #Email: "mailto:gcoder@live.com"
   #V2EX: "#"
   # RSS: "/atom.xml"
   #知乎: "zhihu"
@@ -85,19 +87,19 @@ preload_comment: true
 ## false: 当点击评论条等区域时再加载评论模块
 ## false: load comment's section until u click/hover on the bar/icon
 
-show_count: false
+show_count: true
 ## 是否在主页文章标题旁显示评论数（多说、Disqus）
 ## Add comment count after article title
 
 disqus:
-  #on: true
-  shortname:
+  on: true
+  shortname: gcoder
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if
   # you have set "disqus_shortname" in your site's "_config.yml"
 
 duoshuo:
-  on: true
+  #on: true
   domain: cgoder
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
@@ -117,7 +119,7 @@ youyan:
 ## "5": show images form bg-1.jpg to bg-5.jpg in `/yelee/source/background/`
 ## "5": 显示`/yelee/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片
 ## "0": white-gray background | 淳朴灰白背景
-background_image: 0
+background_image: 1
 
 # Base Font Size | 字号调节
 base_font_size: 16  #px, 16 - 24
@@ -148,10 +150,10 @@ heading_style: 2 # Value: 0 - 2
 list_style: 0  # value: 0 - 12 可选
 
 # 左边栏宽度 px
-left_col_width: 300
+left_col_width: 240
 
 # Copyright info. of post | 文末版权信息
-copyright: true
+copyright: false
 
 # Table of contents | 文章目录
 toc:
@@ -189,7 +191,7 @@ aboutme: false
 ## `global` 0: Set separately, 1: Open all in new 2: Open all in current
 ## `global` 0: 分开设置, 1: 全部在新标签打开, 2: 全部在"当前"标签打开
 open_in_new:
-  global: 0 # 0-2
+  global: 2 # 0-2
   title: false # article title in homepage 主页文章标题
   post: false # link within post/page 正文中的链接
   tags: false # 标签
@@ -253,7 +255,7 @@ baidu_site:
 google_site:
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
-google_analytics:
+google_analytics: UA-96450309-1
 
 # 百度统计 http://sitecenter.baidu.com/sc-web/
 # 查看代码，填入 //hm.baidu.com/hm.js? 之后的内容
@@ -268,7 +270,7 @@ visit_counter:
 
 # GitHub Repo Widget
 # https://github.com/hustcc/GitHub-Repo-Widget.js
-github_widget: true
+github_widget: false
 
 # Progress Bar | 页面加载进度条
 # Demo: http://github.hubspot.com/pace/docs/welcome/
