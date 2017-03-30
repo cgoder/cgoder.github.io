@@ -28,7 +28,7 @@ authoricon: heart
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -39,7 +39,7 @@ menu:
   home: /
   archives: /archives
   tags: /tags
-  categories: /categories
+  #categories: /categories
   # about: /about
   #sitemap: /sitemap.xml
   # commonweal: /404.html
@@ -135,10 +135,12 @@ font:
 social:
   GitHub: https://github.com/cgoder
   # Twitter: https://twitter.com/your-user-name
-  weibo: http://weibo.com/1999469107
-  # douban: http://douban.com/people/your-user-name
+  #weibo: http://weibo.com/1999469107
+  #douban: http://douban.com/people/your-user-name
   # zhihu: http://www.zhihu.com/people/your-user-name
-
+  #GitHub: https://github.com/cgoder
+  Golss: http://www.golss.ml
+  Taoke: http://www.mlmababa.com  
 
 # Social Links Icons
 # Icon Mapping:
@@ -273,10 +275,10 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: cgoder
+#duoshuo_shortname: cgoder
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: gcoder
 
 # Hypercomments
 #hypercomments_id:
@@ -305,7 +307,7 @@ duoshuo_shortname: cgoder
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-96450309-1
 
 # CNZZ count
 #cnzz_siteid:
@@ -318,7 +320,7 @@ duoshuo_shortname: cgoder
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: cgoder
   #admin_nickname: Author
