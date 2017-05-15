@@ -1,0 +1,44 @@
+# Icon
+favicon: /favicon.png
+# SEO
+keywords: 
+# Header
+page_background: home-bg.jpg
+page_menu_button: dark
+post_background: post_background.jpg
+post_menu_button: light
+title_plancehold: 随笔
+author:
+  head: /favicon.png
+  signature: Keep curiosity Independent thinking.
+navication:
+  - name: Github
+    link: https://github.com/cgoder
+  - name: Mababa
+    link: https://www.mlmababa.com
+  - name: Golss
+    link: https://www.golss.ml
+# content
+content_width: 800
+# Footer
+## Social icon list: [facebook, twitter, weibo, wechat, github, stackoverflow, linkin, email, segmentfault, flickr, zhihu, disqus, douban, bilibili]
+social:
+  - name: Github
+    icon: github
+    link: https://github.com/cgoder
+  - name: Mababa
+    icon: zhihu
+    link: https://www.mlmababa.com
+  - name: Golss
+    icon: twitter
+    link: https://www.golss.ml
+
+# Duoshuo
+duoshuo:
+  enable: false
+  siteName: Developer's Life
+# Copyright
+copyright:
+  record: false
+  hexo: false
+  laughing: false
