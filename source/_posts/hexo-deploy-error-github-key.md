@@ -1,7 +1,11 @@
 ---
 title: '[hexo deploy error]github key'
 date: 2017-05-16 09:13:16
+categories:
+ - study
 tags:
+ - hexo
+ - github
 ---
 hexo deploy出错，提示git pubkey无效。
 <!-- more -->
