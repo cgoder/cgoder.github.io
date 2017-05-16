@@ -5,8 +5,8 @@
 # Site
 title: Developer's Life
 subtitle: Keep curiosity Independent thinking
-description: 学习 思考 沉淀
-author: cgoder
+description: Learning to Think, Thinking to Learn. 
+author: Gcoder
 #language: zh-Hans
 language: en
 timezone:
@@ -65,9 +65,11 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: next
-theme: apollo
-#theme: maupassant
-#theme: yelee
+# theme: apollo
+# theme: maupassant
+# theme: yelee
+# theme: laughing
+theme: hiker
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
