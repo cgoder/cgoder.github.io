@@ -33,7 +33,7 @@ avatar:
 # eg. home_background_image: [css/images/home-bg.jpg, http://t.cn/RMbvEza]
 home_background_image:
   enable: true
-  url: []
+  url: [css/images/home-bg.jpg,]
 
 home_logo_image:
   enable: false
