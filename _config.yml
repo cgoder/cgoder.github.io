@@ -68,8 +68,8 @@ pagination_dir: page
 # theme: apollo
 # theme: maupassant
 # theme: yelee
-# theme: laughing
-theme: hiker
+theme: laughing
+#theme: hiker
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
