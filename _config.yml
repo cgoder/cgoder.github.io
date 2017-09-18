@@ -65,10 +65,10 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: next
-# theme: apollo
+theme: apollo
 # theme: maupassant
 # theme: yelee
-theme: laughing
+#theme: laughing
 #theme: hiker
 
 # Deployment
